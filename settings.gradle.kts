@@ -4,3 +4,5 @@ plugins {
 rootProject.name = "MusicAnalyzer"
 include("app")
 include("core:api")
+include("libs:analyzer")
+findProject(":libs:analyzer")?.name = "analyzer"
