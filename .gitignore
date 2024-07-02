@@ -9,6 +9,8 @@ build/
 *.iws
 *.iml
 *.ipr
+*.wav
+*.mp3
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
