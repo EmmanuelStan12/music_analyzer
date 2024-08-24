@@ -90,6 +90,6 @@ class AudioBuilder {
         val byteArrayInputStream = ByteArrayInputStream(byteArray)
         val audioInputStream = AudioInputStream(byteArrayInputStream, format, byteArray.size.toLong() / format.frameSize)
 
-        AudioSystem.write(audioInputStream, AudioFileFormat.Type.WAVE, File("test.wav"))
+        AudioSystem.write(audioInputStream, AudioFileFormat.Type.WAVE, File("audio.wav"))
     }
 }
